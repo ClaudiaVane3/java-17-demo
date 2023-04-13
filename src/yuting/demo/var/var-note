@@ -1,0 +1,22 @@
+JEP Link: https://openjdk.org/jeps/286
+
+1. Readability
+
+2. "var" is reserved type name, not a keyword.
+
+3. Usage Limits
+   Available: Local variables with initializers;
+              Indexes in the enhanced for-loop / Locals declared in a traditional for-loop;
+              try-with-resources blocks;
+
+   NOT Available: No Initialization;
+                  No Explicit Target-Type in Lambda Expression;
+                  Null Initialization;
+                  Method Formals;
+                  Lambda Assignment;
+                  Array Initializer;
+                  others like 'Constructor Formals, Method Return Types, Catch formals, etc.
+
+4. AAD(Action at a Distance)
+   Limit type inference to the immediate declaration to avoid "action at a distance" errors,
+   meaning changing code in some places should not lead to a seemingly unrelated error far away.

@@ -1,0 +1,14 @@
+JEP(Java Enhancement Proposals) - https://openjdk.org/jeps/0
+comparison for specific versions - https://javaalmanac.io/
+
+10 Significant Changes From Java 8 to 17:
+1. var
+2. Records
+3. Extended switch expressions
+4. Instanceof pattern matching
+5. Sealed classes
+6. TextBlocks
+7. Better NullPointerExceptions
+8. New HttpClient
+9. New Optional.orElseThrow() method
+10. Other small but nice API changes
